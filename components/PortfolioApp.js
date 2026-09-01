@@ -128,7 +128,7 @@ export default function PortfolioApp() {
             <a href="mailto:meer.abdullah2016@gmail.com" className="btn-green">
               Let&apos;s talk
             </a>
-            <a href="#" className="btn-outline" id="cv-download-btn" onClick={handleCvDownload}>
+            <a href="public/Meer Abdullah DE&DA CV.pdf" className="btn-outline" id="cv-download-btn" onClick={handleCvDownload}>
               <i className="fa-solid fa-download"></i> Download CV
             </a>
           </div>
