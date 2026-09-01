@@ -68,10 +68,10 @@ export default function PortfolioApp() {
     alert("Copied email address: meer.abdullah2016@gmail.com");
   };
 
-  const handleCvDownload = (e) => {
-    e.preventDefault();
-    alert("Downloading Meer Abdullah Jawed CV...");
-  };
+  // const handleCvDownload = (e) => {
+  //   e.preventDefault();
+  //   alert("Downloading Meer Abdullah Jawed CV...");
+  // };
 
   return (
     <div className="app-layout">
@@ -128,8 +128,8 @@ export default function PortfolioApp() {
             <a href="mailto:meer.abdullah2016@gmail.com" className="btn-green">
               Let&apos;s talk
             </a>
-            <a href="public/Meer Abdullah DE&DA CV.pdf" className="btn-outline" id="cv-download-btn" onClick={handleCvDownload}>
-              <i className="fa-solid fa-download"></i> Download CV
+               <a href="/Meer-Abdullah-CV.pdf" download className="btn-outline" id="cv-download-btn">
+                <i className="fa-solid fa-download"></i> Download CV
             </a>
           </div>
         </div>
